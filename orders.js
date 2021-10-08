@@ -10,7 +10,7 @@ MongoClient.connect(url, function (error, db) {
 
   const data = [
     {
-      user_id: "101",
+      user_id: "e101",
       total_items: 4,
       products: product,
       billing_address: "cnjkgbicjindngnbkrl",
@@ -21,7 +21,7 @@ MongoClient.connect(url, function (error, db) {
       order_status: "delivered",
     },
     {
-      user_id: "102",
+      user_id: "e102",
       total_items: 2,
       products: product,
       billing_address: "cnjkgbicjindngnbkrl",
@@ -32,7 +32,7 @@ MongoClient.connect(url, function (error, db) {
       order_status: "not_delivered",
     },
     {
-      user_id: "103",
+      user_id: "e103",
       total_items: 1,
       products: product,
       billing_address: "cnjkgbicjindngnbkrl",
@@ -43,7 +43,7 @@ MongoClient.connect(url, function (error, db) {
       order_status: "not_delivered",
     },
     {
-      user_id: "104",
+      user_id: "e104",
       total_items: 5,
       products: product,
       billing_address: "cnjkgbicjindngnbkrl",
@@ -54,7 +54,7 @@ MongoClient.connect(url, function (error, db) {
       order_status: "not_delivered",
     },
     {
-      user_id: "105",
+      user_id: "e105",
       total_items: 3,
       products: product,
       billing_address: "cnjkgbicjindngnbkrl",
@@ -65,7 +65,7 @@ MongoClient.connect(url, function (error, db) {
       order_status: "delivered",
     },
     {
-      user_id: "106",
+      user_id: "e106",
       total_items: 10,
       products: product,
       billing_address: "cnjkgbicjindngnbkrl",
@@ -76,7 +76,7 @@ MongoClient.connect(url, function (error, db) {
       order_status: "not_delivered",
     },
     {
-      user_id: "107",
+      user_id: "e107",
       total_items: 5,
       products: product,
       billing_address: "cnjkgbicjindngnbkrl",
@@ -87,7 +87,7 @@ MongoClient.connect(url, function (error, db) {
       order_status: "delivered",
     },
     {
-      user_id: "108",
+      user_id: "e108",
       total_items: 2,
       products: product,
       billing_address: "cnjkgbicjindngnbkrl",
@@ -98,7 +98,7 @@ MongoClient.connect(url, function (error, db) {
       order_status: "not_delivered",
     },
     {
-      user_id: "109",
+      user_id: "e109",
       total_items: 2,
       products: product,
       billing_address: "cnjkgbicjindngnbkrl",
@@ -109,7 +109,7 @@ MongoClient.connect(url, function (error, db) {
       order_status: "not_delivered",
     },
     {
-      user_id: "110",
+      user_id: "e110",
       total_items: 3,
       products: product,
       billing_address: "cnjkgbicjindngnbkrl",
