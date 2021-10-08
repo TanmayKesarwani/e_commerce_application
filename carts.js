@@ -6,42 +6,7 @@ MongoClient.connect(url, function (error, db) {
   console.log("connect sucessfully");
   const db1 = db.db("e_commerce_application");
 
-  const category = ["mobiles", "electronics"];
-  const tag = ["phone", "samsung", "electronics"];
-  const gallery = [
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSw7oieKuvbEz3JxD9ie1Ocd55Q9WIg3BFLrw&usqp=CAU",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyAU9yxGjlrJrSxEuCNAPpZJySanOJQi1DTg&usqp=CAU",
-    "https://store-images.s-microsoft.com/image/apps.44790.13927151219213142.e0e3b865-8832-48b3-bb29-dbde691c4a49.47d8684d-241e-4876-abc0-1c754196066f",
-  ];
-  const product = [
-    {
-      name: "samsumg_mobile",
-      thumbnail:
-        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.wyzowl.com%2Fyoutube-thumbnail-size%2F&psig=AOvVaw3JrDtsnwbFAkVw9JxuJdqk&ust=1633761105139000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCLjq3ceYuvMCFQAAAAAdAAAAABAE",
-      product_gallery: gallery,
-      description: "ebcrjhgbhjjwnkjcnkjfnjknr",
-      base_price: 20000,
-      sell_price: 25000,
-      category_name: category,
-      tags: tag,
-      additional_information:
-        "brchbhvrbxjh vj j dvx jhbvhc jh j ckj kjer kjnjhbfs",
-    },
-    {
-      name: "iphone",
-      thumbnail:
-        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.wyzowl.com%2Fyoutube-thumbnail-size%2F&psig=AOvVaw3JrDtsnwbFAkVw9JxuJdqk&ust=1633761105139000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCLjq3ceYuvMCFQAAAAAdAAAAABAE",
-      product_gallery: gallery,
-      description: "ebcrjhgbhjjwnkjcnbcdnbvnkjfnjknr",
-      base_price: 60000,
-      sell_price: 75000,
-      category_name: category,
-      tags: tag,
-      additional_information:
-        "brchbhvrbxjh vj j dvx jhbvhc jh j ckj kjer kjnjhbfs",
-    },
-  ];
-
+  const product = ["samsung_mobile", "iphone", "dove"];
   const data = [
     {
       products: product,
